@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+
 *   {
     margin: 0;
     padding: 0;
@@ -6,6 +9,8 @@
 
 h1, h2{
     color: #3498DB;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 body  {
@@ -15,26 +20,28 @@ body  {
 
 #cork-city-pic {
     background: url('../images/cork-city.jpeg') center no-repeat;
-    width: 30%;
-    height: 300px;
+    width: 32%;
+    height: 200px;
     float: left;
     background-size: cover;
     padding-top: 40px;
+    padding-left: 15px;
 }
 
 #food-pic {
     background: url('../images/lab82.jpeg') center no-repeat;
-    width: 30%;
-    height: 300px;
+    width: 32%;
+    height: 200px;
     float: right;
     background-size: cover;
     padding-top: 40px;
+    padding-right: 15px;
 }
 
 #market-pic {
     background: url('../images/marina-market.jpeg') center no-repeat;
-    width: 30%;
-    height: 300px;
+    width: 32%;
+    height: 200px;
     margin: 0 auto;
     background-size: cover;
     padding-top: 40px;
