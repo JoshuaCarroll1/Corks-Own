@@ -15,26 +15,54 @@ body  {
 
 #cork-city-pic {
     background: url('../images/cork-city.jpeg') center no-repeat;
-    width: 33%;
+    width: 30%;
     height: 300px;
     float: left;
     background-size: cover;
+    padding-top: 40px;
 }
 
 #food-pic {
     background: url('../images/lab82.jpeg') center no-repeat;
-    width: 33%;
+    width: 30%;
     height: 300px;
     float: right;
     background-size: cover;
+    padding-top: 40px;
 }
 
 #market-pic {
     background: url('../images/marina-market.jpeg') center no-repeat;
-    width: 33%;
+    width: 30%;
     height: 300px;
     margin: 0 auto;
     background-size: cover;
+    padding-top: 40px;
 }
 
+hr {
+ border: 0;
+}
 
+#pics {
+    animation-name: pic-zoom;
+    animation-duration: 5s;
+    animation-fill-mode : forwards;
+}
+
+@keyframes pic-zoom {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.08);
+    }
+}
+
+hr {
+    border-top: 1px dotted black;
+    border: 33%;
+}
+ br {
+    padding-top: 10px;
+ }
