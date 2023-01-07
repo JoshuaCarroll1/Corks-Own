@@ -1,0 +1,40 @@
+*   {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1, h2{
+    color: #3498DB;
+}
+
+body  {
+    background-color: #D5F5E3;
+    text-align: center;
+}
+
+#cork-city-pic {
+    background: url('../images/cork-city.jpeg') center no-repeat;
+    width: 33%;
+    height: 300px;
+    float: left;
+    background-size: cover;
+}
+
+#food-pic {
+    background: url('../images/lab82.jpeg') center no-repeat;
+    width: 33%;
+    height: 300px;
+    float: right;
+    background-size: cover;
+}
+
+#market-pic {
+    background: url('../images/marina-market.jpeg') center no-repeat;
+    width: 33%;
+    height: 300px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+
