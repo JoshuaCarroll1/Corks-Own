@@ -86,9 +86,9 @@ hr {
 
  #restaurant-open {
     background: url('../images/rest-image.webp');
-    width: 22.8%;
+    width: 23%;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
     float: left;
@@ -97,9 +97,9 @@ hr {
 
  #sports {
     background: url('../images/pairc.jpeg');
-    width: 22.8%;
+    width: 23%;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
     float: left;
@@ -107,9 +107,9 @@ hr {
  }
  #nightlife {
     background: url('../images/music.jpeg');
-    width: 22.8%;
+    width: 23%;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
     float: right;
@@ -118,15 +118,20 @@ hr {
 
  #explorer {
     background: url('../images/explorer.jpeg');
-    width: 22.8%;
+    width: 23%;
     height: 200px;
-    margin: 0 auto;
+    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
     float: right;
     margin-right: 20px;
  }
-
- food-rest  {
-    color: #000000;
+ 
+ h3 {
+    padding: 70px;
+    color: #FDFEFE;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
  }
