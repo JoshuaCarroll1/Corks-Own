@@ -80,3 +80,53 @@ hr {
     width: 66%;
     margin: auto;
  }
+ #find-it {
+    padding-bottom: 50px;
+ }
+
+ #restaurant-open {
+    background: url('../images/rest-image.webp');
+    width: 22.8%;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    padding-top: 40px;
+    float: left;
+    margin-left: 20px;
+ }
+
+ #sports {
+    background: url('../images/pairc.jpeg');
+    width: 22.8%;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    padding-top: 40px;
+    float: left;
+    margin-left: 20px;
+ }
+ #nightlife {
+    background: url('../images/music.jpeg');
+    width: 22.8%;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    padding-top: 40px;
+    float: right;
+    margin-right: 20px;
+ }
+
+ #explorer {
+    background: url('../images/explorer.jpeg');
+    width: 22.8%;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    padding-top: 40px;
+    float: right;
+    margin-right: 20px;
+ }
+
+ food-rest  {
+    color: #000000;
+ }
