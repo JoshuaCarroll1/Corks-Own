@@ -80,51 +80,55 @@ hr {
     width: 66%;
     margin: auto;
  }
+
  #find-it {
     padding-bottom: 50px;
  }
 
+ #where-to-go {
+    display: inline-block;
+ }
+
  #restaurant-open {
     background: url('../images/rest-image.webp');
-    width: 23%;
+    width: 25%;
     height: 200px;
-    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
+    margin: 0 auto;
     float: left;
-    margin-left: 20px;
+    
  }
 
  #sports {
     background: url('../images/pairc.jpeg');
-    width: 23%;
+    width: 25%;
     height: 200px;
-    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
+    margin: 0 auto;
     float: left;
-    margin-left: 20px;
+    
  }
  #nightlife {
     background: url('../images/music.jpeg');
-    width: 23%;
+    width: 25%;
     height: 200px;
-    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
+    margin: 0 auto;
     float: right;
-    margin-right: 20px;
+    
  }
 
  #explorer {
     background: url('../images/explorer.jpeg');
-    width: 23%;
+    width: 25%;
     height: 200px;
-    margin: 0 ;
     background-size: cover;
     padding-top: 40px;
+    margin: 0 auto;
     float: right;
-    margin-right: 20px;
  }
  
  h3 {
