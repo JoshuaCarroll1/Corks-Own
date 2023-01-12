@@ -21,36 +21,33 @@ body  {
 }
 
 #cork-city-pic {
-    background: url('../images/cork-city.jpeg') center no-repeat;
-    width: 30%;
+    background: url('../images/cork-city.jpeg')  no-repeat center center;
+    width: 25%;
     height: 200px;
-    float: left;
     background-size: cover;
-    padding-top: 40px;
-    margin-left: 40px;
-    
+    overflow: hidden;
 }
 
 #food-pic {
-    background: url('../images/lab.png') center no-repeat;
-    width: 30%;
+    background: url('../images/lab.png')  no-repeat center center;
+    width: 25%;
     height: 200px;
-    float: right;
     background-size: cover;
-    padding-top: 40px;
-    margin-right: 40px;
+    overflow: hidden;
 }
 
 #market-pic {
-    background: url('../images/marina-market.jpeg') center no-repeat;
-    width: 30%;
+    background: url('../images/marina-market.jpeg')  no-repeat center center;
+    width: 25%;
     height: 200px;
-    margin: 0 auto;
     background-size: cover;
-    padding-top: 40px;
+    overflow: hidden;
 }
 
 #pics {
+    display:flex;
+    align-content: center;
+    justify-content: center;
     animation-name: pic-zoom;
     animation-duration: 5s;
     animation-fill-mode : forwards;
@@ -82,12 +79,13 @@ hr {
  }
 
  #find-it {
-    padding-bottom: 50px;
+    padding-bottom: 150px;
  }
 
- #where-to-go {
-    display: inline-block;
- }
+#where-to-go {
+   display: flex;
+   border: 3px solid black;
+}
 
  #restaurant-open {
     background: url('../images/rest-image.webp');
@@ -95,8 +93,8 @@ hr {
     height: 200px;
     background-size: cover;
     padding-top: 40px;
-    margin: 0 auto;
-    float: left;
+
+    overflow: hidden;
     
  }
 
@@ -106,9 +104,8 @@ hr {
     height: 200px;
     background-size: cover;
     padding-top: 40px;
-    margin: 0 auto;
-    float: left;
-    
+
+    overflow: hidden;
  }
  #nightlife {
     background: url('../images/music.jpeg');
@@ -116,8 +113,8 @@ hr {
     height: 200px;
     background-size: cover;
     padding-top: 40px;
-    margin: 0 auto;
-    float: right;
+
+    overflow: hidden;
     
  }
 
@@ -127,14 +124,14 @@ hr {
     height: 200px;
     background-size: cover;
     padding-top: 40px;
-    margin: 0 auto;
-    float: right;
- }
+
+    overflow: hidden;
+   }
  
  h3 {
-    padding: 70px;
+    line-height: 200px;
     color: #FDFEFE;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -151,7 +148,7 @@ hr {
 
  #social {
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 100px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 2px;
  }
