@@ -1,5 +1,7 @@
+/* Standard css for entire website */
+
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 * {
    margin: 0;
@@ -8,6 +10,7 @@
 }
 
 h1, h2 {
+   padding-bottom: 20px;
    padding-top: 20px;
    color: #3498DB;
    font-size: 70px;
@@ -17,23 +20,37 @@ h1, h2 {
 
 body {
    background-color: #D5F5E3;
-   font-family: 'Bebas Neue', cursive;
+   font-family: 'Space Grotesk', sans-serif;
 }
 
+/* navigation */
+#navbar li{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+#navbar, h1 {
+   line-height: 60px;
+}
+
+/* images */
 #cork-city-pic {
    background: url('../images/cork-city.jpeg') no-repeat center center;
    width: 25%;
    height: 200px;
    background-size: cover;
    overflow: hidden;
+   border: 1px solid black;
 }
 
 #food-pic {
-   background: url('../images/lab.png') no-repeat center center;
+   background: url('../images/shrimp.jpeg') no-repeat center center;
    width: 25%;
    height: 200px;
    background-size: cover;
    overflow: hidden;
+   border: 1px solid black;
 }
 
 #market-pic {
@@ -42,6 +59,7 @@ body {
    height: 200px;
    background-size: cover;
    overflow: hidden;
+   border: 1px solid black;
 }
 
 #pics {
@@ -62,7 +80,7 @@ body {
       transform: scale(1.08);
    }
 }
-
+/* inbetween paragraphs */
 hr {
    margin: 30px auto;
    border-top: dotted;
@@ -77,11 +95,11 @@ br {
 p {
    font-size: 20px;
    color: #000000;
-   font-family: 'Inconsolata', monospace;
    width: 66%;
    margin: auto;
 }
 
+/* more images at bottom */
 #find-it {
    padding-bottom: 100px;
 }
@@ -133,10 +151,9 @@ p {
    border: 1px solid black;
    overflow: hidden;
 }
-
 h3 {
    line-height: 180px;
-   color: #FDFEFE;
+   color: #5B2C6F;
    font-size: 35px;
    letter-spacing: 2px;
    text-align: center;
@@ -155,9 +172,10 @@ a:hover {
    text-align: center;
 
 }
-
+/* footer */
 #social {
    margin: 0 auto;
    font-size: 100px;
    letter-spacing: 2px;
+   color: #5B2C6F;
 }
