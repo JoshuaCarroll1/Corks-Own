@@ -152,8 +152,8 @@ p {
    overflow: hidden;
 }
 h3 {
-   line-height: 180px;
-   color: #5B2C6F;
+   line-height: 165px;
+   color: #EAF2F8;
    font-size: 35px;
    letter-spacing: 2px;
    text-align: center;
@@ -178,4 +178,9 @@ a:hover {
    font-size: 100px;
    letter-spacing: 2px;
    color: #5B2C6F;
+}
+
+footer {
+   margin-top: 80px;
+   background-color: #CCCCFF;
 }
