@@ -73,7 +73,7 @@ body {
 }
 
 #coqbull1 {
-   background-image: url('../images/coqbull.jpeg') no-repeat center center ;
+   background: url('../images/coqbull.jpeg') no-repeat center center ;
    width: 33%;
    height: 200px;
    background-size: cover;
@@ -82,7 +82,7 @@ body {
 }
 
 #coqbull2 {
-   background-image: url('../images/coqbull2.jpeg') no-repeat center center ;
+   background: url('../images/coqbull2.jpeg') no-repeat center center ;
    width: 33%;
    height: 200px;
    background-size: cover;
@@ -91,7 +91,7 @@ body {
 }
 
 #coqbull3 {
-   background-image: url('../images/coqbull3.jpeg') no-repeat center center ;
+   background: url('../images/coqbull3.jpeg') no-repeat center center ;
    width: 33%;
    height: 200px;
    background-size: cover;
