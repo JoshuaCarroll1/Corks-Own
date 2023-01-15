@@ -37,7 +37,7 @@ body {
 /* images */
 #cork-city-pic {
    background: url('../images/cork-city.jpeg') no-repeat center center;
-   width: 25%;
+   width: 33%;
    height: 200px;
    background-size: cover;
    overflow: hidden;
@@ -46,7 +46,7 @@ body {
 
 #food-pic {
    background: url('../images/shrimp.jpeg') no-repeat center center;
-   width: 25%;
+   width: 33%;
    height: 200px;
    background-size: cover;
    overflow: hidden;
@@ -55,7 +55,7 @@ body {
 
 #market-pic {
    background: url('../images/marina-market.jpeg') no-repeat center center;
-   width: 25%;
+   width: 33%;
    height: 200px;
    background-size: cover;
    overflow: hidden;
@@ -65,10 +65,38 @@ body {
 #pics {
    display: flex;
    justify-content: center;
-   flex-direction: row;
+   margin: 0 auto;
    animation-name: pic-zoom;
    animation-duration: 5s;
    animation-fill-mode: forwards;
+   width: 66%;
+}
+
+#coqbull1 {
+   background-image: url('../images/coqbull.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#coqbull2 {
+   background-image: url('../images/coqbull2.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#coqbull3 {
+   background-image: url('../images/coqbull3.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
 }
 
 @keyframes pic-zoom {
