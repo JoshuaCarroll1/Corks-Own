@@ -23,6 +23,8 @@ body {
    font-family: 'Space Grotesk', sans-serif;
 }
 
+
+
 /* navigation */
 #navbar li{
    display: flex;
@@ -70,6 +72,48 @@ body {
    animation-duration: 5s;
    animation-fill-mode: forwards;
    width: 66%;
+}
+
+#restaurant-open {
+   background: url('../images/rest-image.webp');
+   width: 22%;
+   height: 200px;
+   background-size: cover;
+   padding-top: 40px;
+   border: 1px solid black;
+   overflow: hidden;
+
+}
+
+#sports {
+   background: url('../images/pairc.jpeg');
+   width: 22%;
+   height: 200px;
+   background-size: cover;
+   padding-top: 40px;
+   border: 1px solid black;
+   overflow: hidden;
+}
+
+#nightlife {
+   background: url('../images/music.jpeg');
+   width: 22%;
+   height: 200px;
+   background-size: cover;
+   padding-top: 40px;
+   border: 1px solid black;
+   overflow: hidden;
+
+}
+
+#explorer {
+   background: url('../images/explorer.jpeg');
+   width: 22%;
+   height: 200px;
+   background-size: cover;
+   padding-top: 40px;
+   border: 1px solid black;
+   overflow: hidden;
 }
 
 #coqbull1 {
@@ -126,6 +170,34 @@ body {
    border: 1px solid black;
 }
 
+#jacks1 {
+   background: url('../images/jacks1.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#jacks2 {
+   background: url('../images/jacks2.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#jacks3 {
+   background: url('../images/jacks3.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+
 @keyframes pic-zoom {
    from {
       transform: scale(1.0);
@@ -155,7 +227,7 @@ p {
    margin: 0 auto;
 }
 
-/* more images at bottom */
+/* detail id */
 #find-it {
    padding-bottom: 100px;
 }
@@ -166,47 +238,11 @@ p {
    flex-direction: row;
 }
 
-#restaurant-open {
-   background: url('../images/rest-image.webp');
-   width: 22%;
-   height: 200px;
-   background-size: cover;
-   padding-top: 40px;
-   border: 1px solid black;
-   overflow: hidden;
-
+#title {
+   background-color: #CCCCFF;
 }
 
-#sports {
-   background: url('../images/pairc.jpeg');
-   width: 22%;
-   height: 200px;
-   background-size: cover;
-   padding-top: 40px;
-   border: 1px solid black;
-   overflow: hidden;
-}
 
-#nightlife {
-   background: url('../images/music.jpeg');
-   width: 22%;
-   height: 200px;
-   background-size: cover;
-   padding-top: 40px;
-   border: 1px solid black;
-   overflow: hidden;
-
-}
-
-#explorer {
-   background: url('../images/explorer.jpeg');
-   width: 22%;
-   height: 200px;
-   background-size: cover;
-   padding-top: 40px;
-   border: 1px solid black;
-   overflow: hidden;
-}
 h3 {
    line-height: 165px;
    color: #EAF2F8;
