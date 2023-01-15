@@ -124,7 +124,8 @@ p {
    font-size: 20px;
    color: #000000;
    width: 66%;
-   margin: auto;
+   text-align: center;
+   margin: 0 auto;
 }
 
 /* more images at bottom */
