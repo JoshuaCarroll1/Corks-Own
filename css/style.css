@@ -99,6 +99,33 @@ body {
    border: 1px solid black;
 }
 
+#lab82-1 {
+   background: url('../images/lab82-1.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#lab82-2 {
+   background: url('../images/lab82-2.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
+#lab82-3 {
+   background: url('../images/lab82-3.jpeg') no-repeat center center ;
+   width: 33%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border: 1px solid black;
+}
+
 @keyframes pic-zoom {
    from {
       transform: scale(1.0);
